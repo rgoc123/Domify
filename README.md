@@ -6,6 +6,7 @@ Domify is a JavaScript DOM library that allows developers to manipulate the DOM 
 - Manipulate CSS classes
 - Traverse parent and children nodes
 
+Live Example: [MakeItHappen](http://robertoconnor.io/MakeItHappen/)
 
 #### How to Implement
 Simply download this repo and include the "./lib/domify_main.js" in an HTML file.
