@@ -3,6 +3,27 @@
   font-size: 16px;
 }
 
+li .fa {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  color: black;
+}
+
+li .fa-check {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  color: black;
+}
+
+li i {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  color: black;
+}
+
 .container {
   width: 960px;
   height: 507px;
@@ -40,6 +61,25 @@
 
 h1 {
   font-size: 24px;
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+p {
+  margin: 0px 5px 0px 5px;
+}
+
+.complete {
+  position: absolute;
+  right: 20px;
+  margin-right: 20px;
+}
+
+.delete {
+  position: absolute;
+  right: 5px;
+  top: -1px;
 }
 
 .add-to-do-button {
@@ -54,4 +94,6 @@ h1 {
   margin: 10px 0px;
   padding: 3px 0px 3px 5px;
   border-radius: 4px;
+  display: flex;
+  position: relative;
 }
