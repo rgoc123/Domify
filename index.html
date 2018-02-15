@@ -4,23 +4,28 @@
     <meta charset="utf-8">
     <title>Make it Happen!</title>
     <link rel="stylesheet" href="css/make_it_happen.css">
-    <script type="text/javascript" src="./lib/domify_main.js"></script>
+
   </head>
 
   <body>
-    <div class="">
-      <form class="" action="" method="post">
-        <label for="to-do-input">Write To-Do
-          <input id="to-do-input" type="text" name="" value="">
-        </label>
-        <input id="add-to-do-button" type="submit" name="" value="Add To-Do">
-      </form>
+    <div class="container">
+      <div class="col-alpha">
+        <form class="to-do-form" action="" method="post">
+          <input class="to-do-input" type="text" name="" value="">
+          <input class="add-to-do-button" type="button" name="" value="Add To-Do" >
+        </form>
+      </div>
+      <div class="col-bravo">
+        <ul class="to-do-list">To-Do List
+        </ul>
+      </div>
     </div>
     <div class="to-do-list-container">
-      <ul class="to-do-list">To-Do List
-      </ul>
+
     </div>
-    <script type="text/javascript" src="./js/make_it_happen.js"></script>
+
+    <script type="text/javascript" src="./lib/domify.js"></script>
+    <script type="text/javascript" src="./lib/make_it_happen.js"></script>
   </body>
 
 </html>

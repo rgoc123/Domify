@@ -1,4 +1,26 @@
-#add-to-do-button {
+.container {
+  width: 960px;
+  height: 507px;
+  border: solid 1px black;
+  background-image: url('./desk.png');
+  margin: 0 auto;
+  display: flex;
+}
+
+.col-alpha {
+  width: 50%;
+}
+
+.col-bravo {
+  width: 50%;
+}
+
+.add-to-do-button {
   background: blue;
   color: white;
+}
+
+.to-do-item {
+  width: 200px;
+  height: 50px;
 }
